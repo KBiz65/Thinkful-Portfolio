@@ -1,0 +1,147 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: floralwhite;
+  font-family: "Asap", sans-serif;
+  letter-spacing: 1.25px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: rgb(183, 244, 252);
+}
+
+div {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 2rem;
+  color: darkblue;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav > .nav-ul > li {
+  font-size: 1.5rem;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+main {
+  width: 95%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  width: 50%;
+  background-color: darkblue;
+  height: 2px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(183, 244, 252);
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > div > p {
+  width: 50%;
+  margin-bottom: 1rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: darkblue;
+}
